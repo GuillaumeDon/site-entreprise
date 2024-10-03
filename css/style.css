@@ -134,7 +134,7 @@ img {
 #contents p a:hover {
 	color: #0aa3fa;
 }
-#contents p b {
+#contents p b,h2 {
 	display: block;
 }
 #contents .body {
@@ -144,7 +144,7 @@ img {
 }
 #contents .click-here {
 	float: right;
-	background: url(../images/spacecraft.jpg) no-repeat center top;
+	background: url(../images/placeholder.jpg) no-repeat center top;
 	display: inline-block;
 	height: 162px;
 	width: 301px;
@@ -159,7 +159,7 @@ img {
 }
 /** adbox **/
 #adbox {
-	background: #020a13 url(../images/bg-adbox.jpg) no-repeat center top;
+	background: #020a13 url(../images/test.jpg) no-repeat center top;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	min-height: 433px;
 	margin: -56px 0 22px;
@@ -185,13 +185,17 @@ img {
 	margin-bottom: 30px;
 }
 #adbox p {
-	color: #176eb0;
+	/* color: #176eb0; */
 	font-size: 14px;
 	line-height: 24px;
 }
 #adbox p a {
 	color: #176eb0;
 }
+
+/* .p-intro{
+	color: white;
+} */
 #adbox div.highlight {
 	background: #171a1a url(../images/adbox-bg-heading.jpg) repeat-x left top;
 	min-height: 82px;
@@ -238,7 +242,7 @@ img {
 	opacity:0.8;
 }
 #sidebar .click-here {
-	background: url(../images/spacecraft-dark.jpg) no-repeat center top;
+	background: url(../images/placeholder.jpg) no-repeat center top;
 	display: inline-block;
 	height: 162px;
 	width: 221px;
@@ -539,4 +543,9 @@ img {
 	color: #03436f;
 	width: 460px;
 	margin-right: 10px;
+}
+
+
+.about-title{
+	color: white;
 }
