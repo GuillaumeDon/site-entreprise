@@ -549,3 +549,30 @@ img {
 .about-title{
 	color: white;
 }
+
+
+.contact-button {
+    background-color: blue; /* Bleu nuit */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-button:hover {
+    background-color: #001a35; /* Bleu nuit légèrement plus foncé au hover */
+}
+
+.contact-button:active {
+    background-color: #001527; /* Bleu nuit encore plus foncé au clic */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+a{
+	text-decoration : none;
+	color: white;
+}
